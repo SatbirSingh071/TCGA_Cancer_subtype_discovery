@@ -1,0 +1,501 @@
+case_submitter_id,true_subtype,sequencing_plate,age_at_index,gender,ajcc_pathologic_stage,tumor_grade,vital_status,days_to_event,event_observed
+SIM-BRCA-0000,Luminal B,Plate_C,57.1,female,Stage IIB,G1,Dead,770.0,1
+SIM-BRCA-0001,HER2-enriched,Plate_A,65.7,male,Stage IA,G1,Dead,1209.0,1
+SIM-BRCA-0002,Basal-like,Plate_B,67.2,female,Stage IIB,G3,Dead,24.0,1
+SIM-BRCA-0003,Luminal A,Plate_C,55.5,female,Stage IIA,G1,Alive,2268.0,0
+SIM-BRCA-0004,Luminal B,Plate_A,53.4,female,Stage IIIA,G2,Alive,3308.0,0
+SIM-BRCA-0005,Luminal A,Plate_A,58.2,female,Stage IA,G1,Dead,2112.0,1
+SIM-BRCA-0006,Basal-like,Plate_A,50.3,female,Stage IA,G3,Dead,2015.0,1
+SIM-BRCA-0007,Basal-like,Plate_B,42.4,female,Stage IIIC,G2,Dead,1636.0,1
+SIM-BRCA-0008,Luminal A,Plate_A,55.7,female,Stage I,G2,Alive,3583.0,0
+SIM-BRCA-0009,Basal-like,Plate_A,69.4,female,Stage IIIC,G1,Dead,1622.0,1
+SIM-BRCA-0010,Basal-like,Plate_B,63.7,female,Stage IIIA,G1,Dead,842.0,1
+SIM-BRCA-0011,Basal-like,Plate_C,64.6,female,Stage IIIA,G3,Dead,1261.0,1
+SIM-BRCA-0012,Luminal A,Plate_B,59.8,female,Stage IIA,G1,Alive,2426.0,0
+SIM-BRCA-0013,Luminal A,Plate_A,81.9,female,Stage IIIC,G2,Dead,1258.0,1
+SIM-BRCA-0014,Luminal B,Plate_A,74.1,female,Stage IIB,G2,Dead,2113.0,1
+SIM-BRCA-0015,Luminal A,Plate_A,55.7,female,Stage IIIC,G1,Alive,2834.0,0
+SIM-BRCA-0016,Luminal B,Plate_C,70.3,female,Stage IA,G3,Dead,933.0,1
+SIM-BRCA-0017,Luminal A,Plate_C,65.2,female,Stage IIIA,G1,Alive,2457.0,0
+SIM-BRCA-0018,Luminal A,Plate_B,44.8,female,Stage IA,G2,Dead,1031.0,1
+SIM-BRCA-0019,Basal-like,Plate_A,47.6,female,Stage IIIA,G3,Dead,955.0,1
+SIM-BRCA-0020,Luminal A,Plate_B,59.9,female,Stage IIIA,G1,Dead,993.0,1
+SIM-BRCA-0021,Basal-like,Plate_A,64.4,female,Stage IIA,G1,Dead,394.0,1
+SIM-BRCA-0022,Luminal A,Plate_B,60.9,female,Stage IA,G2,Alive,2509.0,0
+SIM-BRCA-0023,Luminal B,Plate_A,60.4,female,Stage IA,G3,Dead,1980.0,1
+SIM-BRCA-0024,Luminal A,Plate_C,43.3,female,Stage IIIA,G1,Alive,2767.0,0
+SIM-BRCA-0025,Basal-like,Plate_B,55.5,female,Stage IIIC,G3,Dead,904.0,1
+SIM-BRCA-0026,Basal-like,Plate_C,63.0,female,Stage IIA,G2,Alive,1794.0,0
+SIM-BRCA-0027,Luminal A,Plate_C,90.0,female,Stage I,G2,Dead,956.0,1
+SIM-BRCA-0028,Basal-like,Plate_B,70.4,female,Stage IIIA,G3,Alive,3060.0,0
+SIM-BRCA-0029,Luminal A,Plate_C,62.5,female,Stage I,G1,Dead,1407.0,1
+SIM-BRCA-0030,Luminal B,Plate_A,60.4,female,Stage IIA,G3,Alive,1667.0,0
+SIM-BRCA-0031,Luminal A,Plate_C,70.6,female,Stage IA,G1,Dead,1706.0,1
+SIM-BRCA-0032,Luminal B,Plate_C,42.0,female,Stage IIB,G3,Dead,1293.0,1
+SIM-BRCA-0033,Luminal A,Plate_B,58.0,female,Stage IIIA,G2,Alive,2068.0,0
+SIM-BRCA-0034,HER2-enriched,Plate_A,56.2,female,Stage IIB,G2,Dead,2986.0,1
+SIM-BRCA-0035,Luminal B,Plate_A,63.0,female,Stage IIA,G3,Dead,812.0,1
+SIM-BRCA-0036,Luminal B,Plate_C,29.6,female,Stage IIB,G2,Alive,3143.0,0
+SIM-BRCA-0037,Luminal A,Plate_B,67.1,female,Stage IA,G1,Dead,1156.0,1
+SIM-BRCA-0038,Luminal A,Plate_B,73.5,female,Stage IIIA,G1,Dead,702.0,1
+SIM-BRCA-0039,Luminal A,Plate_A,60.2,female,Stage IA,G1,Alive,2035.0,0
+SIM-BRCA-0040,HER2-enriched,Plate_A,54.2,female,Stage IIIA,G2,Dead,561.0,1
+SIM-BRCA-0041,Basal-like,Plate_B,55.0,female,Stage IIB,G3,Dead,590.0,1
+SIM-BRCA-0042,Luminal A,Plate_C,42.2,female,Stage IA,G3,Alive,2422.0,0
+SIM-BRCA-0043,Basal-like,Plate_A,73.6,female,Stage IA,G3,Dead,366.0,1
+SIM-BRCA-0044,Luminal B,Plate_A,48.0,female,Stage IA,G3,Dead,691.0,1
+SIM-BRCA-0045,Luminal A,Plate_A,48.2,female,Stage IIA,G2,Alive,1754.0,0
+SIM-BRCA-0046,Luminal B,Plate_A,56.7,female,Stage IA,G3,Dead,1128.0,1
+SIM-BRCA-0047,Luminal A,Plate_A,46.1,female,Stage IIIA,G1,Dead,200.0,1
+SIM-BRCA-0048,Luminal A,Plate_A,66.6,female,Stage IIIC,G1,Alive,1790.0,0
+SIM-BRCA-0049,Basal-like,Plate_A,59.5,female,Stage IIA,G3,Dead,748.0,1
+SIM-BRCA-0050,Luminal A,Plate_A,67.9,female,Stage IIA,G2,Alive,2018.0,0
+SIM-BRCA-0051,HER2-enriched,Plate_B,66.3,female,Stage I,G3,Dead,703.0,1
+SIM-BRCA-0052,Basal-like,Plate_B,75.8,female,Stage IIIA,G2,Dead,924.0,1
+SIM-BRCA-0053,HER2-enriched,Plate_A,44.7,female,Stage IIIA,G2,Dead,320.0,1
+SIM-BRCA-0054,Basal-like,Plate_A,61.8,male,Stage IIB,G2,Alive,1829.0,0
+SIM-BRCA-0055,HER2-enriched,Plate_A,69.9,female,Stage IV,G3,Dead,1826.0,1
+SIM-BRCA-0056,Luminal A,Plate_B,44.7,female,Stage IA,G2,Dead,3459.0,1
+SIM-BRCA-0057,Luminal B,Plate_A,48.6,female,Stage IIIA,G2,Alive,2282.0,0
+SIM-BRCA-0058,Luminal B,Plate_C,49.4,female,Stage I,G3,Dead,117.0,1
+SIM-BRCA-0059,HER2-enriched,Plate_B,59.2,female,Stage IIA,G2,Dead,1476.0,1
+SIM-BRCA-0060,Luminal A,Plate_A,63.4,female,Stage IIA,G2,Dead,37.0,1
+SIM-BRCA-0061,Luminal B,Plate_B,76.6,female,Stage IIB,G3,Alive,2419.0,0
+SIM-BRCA-0062,Basal-like,Plate_A,60.0,female,Stage IIIA,G2,Alive,2707.0,0
+SIM-BRCA-0063,Luminal A,Plate_A,48.3,female,Stage I,G1,Dead,1356.0,1
+SIM-BRCA-0064,HER2-enriched,Plate_C,60.3,female,Stage IIB,G3,Dead,1889.0,1
+SIM-BRCA-0065,Luminal A,Plate_C,71.3,female,Stage IA,G1,Alive,1996.0,0
+SIM-BRCA-0066,Luminal A,Plate_A,68.7,female,Stage I,G3,Alive,2750.0,0
+SIM-BRCA-0067,Luminal B,Plate_A,47.1,female,Stage IIB,G2,Dead,2099.0,1
+SIM-BRCA-0068,Luminal B,Plate_A,63.4,female,Stage IIA,G2,Dead,1655.0,1
+SIM-BRCA-0069,Luminal A,Plate_C,66.7,female,Stage I,G1,Dead,801.0,1
+SIM-BRCA-0070,Luminal A,Plate_A,45.3,male,Stage IIA,G1,Dead,2064.0,1
+SIM-BRCA-0071,Luminal A,Plate_A,68.2,female,Stage IIB,G3,Alive,2836.0,0
+SIM-BRCA-0072,Basal-like,Plate_A,58.2,female,Stage IV,G3,Dead,2495.0,1
+SIM-BRCA-0073,HER2-enriched,Plate_B,62.9,female,Stage IV,G3,Alive,2450.0,0
+SIM-BRCA-0074,Luminal B,Plate_A,58.1,female,Stage IIA,G3,Alive,1774.0,0
+SIM-BRCA-0075,Luminal A,Plate_A,77.0,female,Stage IIB,G2,Dead,143.0,1
+SIM-BRCA-0076,Luminal B,Plate_B,55.1,female,Stage IIB,G2,Alive,2327.0,0
+SIM-BRCA-0077,HER2-enriched,Plate_A,65.2,female,Stage IIIA,G3,Alive,2854.0,0
+SIM-BRCA-0078,Basal-like,Plate_B,60.6,female,Stage IIB,G2,Dead,566.0,1
+SIM-BRCA-0079,Luminal A,Plate_A,63.0,female,Stage IIB,G2,Alive,1842.0,0
+SIM-BRCA-0080,Luminal A,Plate_A,44.6,female,Stage IIB,G1,Alive,3260.0,0
+SIM-BRCA-0081,HER2-enriched,Plate_A,54.1,female,Stage IIA,G2,Dead,1591.0,1
+SIM-BRCA-0082,HER2-enriched,Plate_B,67.6,female,Stage I,G2,Alive,1925.0,0
+SIM-BRCA-0083,Luminal A,Plate_A,43.6,female,Stage IIA,G2,Alive,2466.0,0
+SIM-BRCA-0084,HER2-enriched,Plate_B,77.2,female,Stage IIB,G1,Dead,177.0,1
+SIM-BRCA-0085,Luminal A,Plate_C,81.7,female,Stage IIB,G1,Dead,1439.0,1
+SIM-BRCA-0086,Luminal A,Plate_A,58.3,female,Stage I,G3,Alive,2124.0,0
+SIM-BRCA-0087,Basal-like,Plate_B,62.2,female,Stage IIIA,G3,Dead,1280.0,1
+SIM-BRCA-0088,Luminal B,Plate_A,40.5,female,Stage IIA,G3,Dead,679.0,1
+SIM-BRCA-0089,Luminal B,Plate_B,52.4,female,Stage IIIA,G3,Alive,3088.0,0
+SIM-BRCA-0090,HER2-enriched,Plate_C,54.7,female,Stage IA,G3,Alive,1773.0,0
+SIM-BRCA-0091,HER2-enriched,Plate_B,59.7,female,Stage IIA,G3,Dead,1348.0,1
+SIM-BRCA-0092,Luminal A,Plate_B,59.7,female,Stage IIA,G1,Alive,3116.0,0
+SIM-BRCA-0093,Basal-like,Plate_C,46.9,female,Stage IIIA,G3,Dead,2900.0,1
+SIM-BRCA-0094,Basal-like,Plate_A,35.1,female,Stage IA,G2,Dead,185.0,1
+SIM-BRCA-0095,Luminal B,Plate_A,66.5,female,Stage IIIA,G1,Dead,1201.0,1
+SIM-BRCA-0096,HER2-enriched,Plate_A,67.9,female,Stage IIIA,G1,Dead,2851.0,1
+SIM-BRCA-0097,Basal-like,Plate_A,56.7,female,Stage IIIA,G3,Dead,421.0,1
+SIM-BRCA-0098,Luminal A,Plate_B,57.6,female,Stage IIA,G1,Alive,1917.0,0
+SIM-BRCA-0099,Luminal A,Plate_A,61.2,female,Stage IIA,G2,Alive,3425.0,0
+SIM-BRCA-0100,HER2-enriched,Plate_A,38.7,female,Stage I,G3,Dead,1425.0,1
+SIM-BRCA-0101,HER2-enriched,Plate_B,43.6,female,Stage IIA,G3,Alive,2109.0,0
+SIM-BRCA-0102,Luminal A,Plate_B,30.0,female,Stage IIA,G1,Dead,819.0,1
+SIM-BRCA-0103,Luminal A,Plate_B,57.2,female,Stage IIA,G1,Dead,822.0,1
+SIM-BRCA-0104,Basal-like,Plate_B,62.0,female,Stage I,G2,Alive,2098.0,0
+SIM-BRCA-0105,Luminal A,Plate_A,89.7,female,Stage IA,G1,Dead,2324.0,1
+SIM-BRCA-0106,Luminal A,Plate_A,46.7,female,Stage IIA,G1,Dead,449.0,1
+SIM-BRCA-0107,HER2-enriched,Plate_C,41.3,female,Stage IIB,G3,Dead,1372.0,1
+SIM-BRCA-0108,HER2-enriched,Plate_B,61.9,female,Stage IIA,G3,Dead,399.0,1
+SIM-BRCA-0109,HER2-enriched,Plate_B,64.2,female,Stage I,G3,Dead,1412.0,1
+SIM-BRCA-0110,Basal-like,Plate_C,66.0,female,Stage IIIA,G3,Dead,926.0,1
+SIM-BRCA-0111,Luminal A,Plate_A,42.7,female,Stage IA,G2,Dead,1005.0,1
+SIM-BRCA-0112,HER2-enriched,Plate_A,68.7,female,Stage IIIA,G3,Dead,2287.0,1
+SIM-BRCA-0113,Luminal A,Plate_C,56.4,female,Stage IIIA,G2,Dead,1453.0,1
+SIM-BRCA-0114,Luminal A,Plate_B,64.7,female,Stage IIA,G2,Alive,3333.0,0
+SIM-BRCA-0115,HER2-enriched,Plate_B,66.8,female,Stage IIIA,G3,Dead,311.0,1
+SIM-BRCA-0116,Basal-like,Plate_A,48.6,female,Stage IIB,G2,Dead,1405.0,1
+SIM-BRCA-0117,HER2-enriched,Plate_A,79.9,female,Stage IA,G3,Dead,37.0,1
+SIM-BRCA-0118,Luminal A,Plate_A,46.7,female,Stage IIB,G2,Dead,1673.0,1
+SIM-BRCA-0119,HER2-enriched,Plate_B,70.5,female,Stage IIB,G3,Dead,1070.0,1
+SIM-BRCA-0120,Basal-like,Plate_A,70.1,female,Stage IIIA,G3,Dead,2483.0,1
+SIM-BRCA-0121,Basal-like,Plate_A,61.5,female,Stage IIB,G3,Dead,100.0,1
+SIM-BRCA-0122,HER2-enriched,Plate_A,26.0,female,Stage IA,G1,Dead,465.0,1
+SIM-BRCA-0123,Luminal A,Plate_A,45.4,female,Stage IIA,G3,Alive,3032.0,0
+SIM-BRCA-0124,Basal-like,Plate_A,65.9,female,Stage I,G3,Alive,1914.0,0
+SIM-BRCA-0125,Basal-like,Plate_A,48.1,female,Stage IIIA,G3,Dead,618.0,1
+SIM-BRCA-0126,Basal-like,Plate_A,54.6,female,Stage IA,G2,Dead,921.0,1
+SIM-BRCA-0127,HER2-enriched,Plate_A,62.6,female,Stage I,G2,Dead,2081.0,1
+SIM-BRCA-0128,Basal-like,Plate_B,60.3,female,Stage IIB,G2,Dead,1524.0,1
+SIM-BRCA-0129,Luminal A,Plate_B,56.9,female,Stage IIIC,G2,Alive,1724.0,0
+SIM-BRCA-0130,Luminal A,Plate_A,50.5,female,Stage I,G2,Dead,1131.0,1
+SIM-BRCA-0131,HER2-enriched,Plate_A,54.1,female,Stage IIB,G3,Dead,610.0,1
+SIM-BRCA-0132,HER2-enriched,Plate_B,59.4,female,Stage IIIC,G2,Dead,1241.0,1
+SIM-BRCA-0133,HER2-enriched,Plate_A,48.1,female,Stage IV,G2,Dead,1820.0,1
+SIM-BRCA-0134,Luminal A,Plate_A,49.4,female,Stage I,G2,Dead,1079.0,1
+SIM-BRCA-0135,Luminal A,Plate_B,71.2,female,Stage IIA,G1,Dead,1613.0,1
+SIM-BRCA-0136,Basal-like,Plate_B,36.2,female,Stage IIB,G3,Alive,2377.0,0
+SIM-BRCA-0137,Basal-like,Plate_A,44.6,female,Stage IIIA,G3,Dead,110.0,1
+SIM-BRCA-0138,Luminal A,Plate_A,51.8,female,Stage IIA,G1,Alive,2159.0,0
+SIM-BRCA-0139,Basal-like,Plate_A,45.0,female,Stage IIIA,G2,Dead,1107.0,1
+SIM-BRCA-0140,Luminal A,Plate_B,68.4,female,Stage IIA,G3,Alive,2650.0,0
+SIM-BRCA-0141,Luminal B,Plate_A,70.2,female,Stage IIA,G3,Dead,950.0,1
+SIM-BRCA-0142,Luminal A,Plate_A,43.4,female,Stage I,G1,Dead,346.0,1
+SIM-BRCA-0143,Luminal A,Plate_A,65.3,female,Stage IIIA,G1,Alive,3255.0,0
+SIM-BRCA-0144,Luminal A,Plate_C,85.5,female,Stage IA,G1,Dead,180.0,1
+SIM-BRCA-0145,HER2-enriched,Plate_A,77.3,female,Stage IIIA,G3,Dead,1597.0,1
+SIM-BRCA-0146,Basal-like,Plate_A,51.2,female,Stage I,G2,Dead,1701.0,1
+SIM-BRCA-0147,HER2-enriched,Plate_A,63.6,female,Stage IIB,G3,Dead,280.0,1
+SIM-BRCA-0148,Luminal B,Plate_A,81.9,female,Stage IIA,G2,Dead,2247.0,1
+SIM-BRCA-0149,Luminal B,Plate_A,80.6,female,Stage IIIA,G3,Dead,123.0,1
+SIM-BRCA-0150,Luminal A,Plate_B,65.3,female,Stage IIA,G2,Alive,2281.0,0
+SIM-BRCA-0151,Basal-like,Plate_A,59.4,female,Stage IIIC,G2,Dead,506.0,1
+SIM-BRCA-0152,Luminal A,Plate_A,41.6,female,Stage IIA,G1,Alive,2132.0,0
+SIM-BRCA-0153,Basal-like,Plate_B,51.7,female,Stage IIB,G3,Dead,1387.0,1
+SIM-BRCA-0154,HER2-enriched,Plate_C,47.9,female,Stage IIA,G2,Dead,1103.0,1
+SIM-BRCA-0155,HER2-enriched,Plate_A,71.6,female,Stage IIA,G3,Alive,2451.0,0
+SIM-BRCA-0156,Luminal A,Plate_A,50.5,female,Stage IIB,G1,Alive,2345.0,0
+SIM-BRCA-0157,Luminal B,Plate_B,35.4,female,Stage IIA,G3,Dead,902.0,1
+SIM-BRCA-0158,Luminal A,Plate_A,57.2,female,Stage IIB,G3,Alive,3073.0,0
+SIM-BRCA-0159,Luminal A,Plate_B,59.4,female,Stage IA,G2,Alive,2179.0,0
+SIM-BRCA-0160,Basal-like,Plate_A,42.9,female,Stage I,G2,Dead,516.0,1
+SIM-BRCA-0161,Luminal B,Plate_B,27.2,female,Stage IIA,G2,Alive,2883.0,0
+SIM-BRCA-0162,Basal-like,Plate_A,65.7,female,Stage IIB,G3,Dead,147.0,1
+SIM-BRCA-0163,Luminal A,Plate_B,60.7,female,Stage IA,G1,Alive,2761.0,0
+SIM-BRCA-0164,HER2-enriched,Plate_A,60.9,female,Stage IIIC,G3,Dead,187.0,1
+SIM-BRCA-0165,HER2-enriched,Plate_C,66.3,female,Stage IIB,G2,Dead,1013.0,1
+SIM-BRCA-0166,Luminal B,Plate_C,41.7,female,Stage IIIC,G1,Alive,2649.0,0
+SIM-BRCA-0167,HER2-enriched,Plate_B,74.2,female,Stage IV,G2,Dead,196.0,1
+SIM-BRCA-0168,Luminal A,Plate_A,43.4,female,Stage IIA,G2,Alive,2969.0,0
+SIM-BRCA-0169,Basal-like,Plate_A,35.7,female,Stage IIIA,G2,Dead,2881.0,1
+SIM-BRCA-0170,HER2-enriched,Plate_B,53.3,female,Stage IIIA,G3,Dead,721.0,1
+SIM-BRCA-0171,HER2-enriched,Plate_B,43.3,female,Stage IIIC,G3,Dead,630.0,1
+SIM-BRCA-0172,HER2-enriched,Plate_B,42.3,female,Stage IIIC,G3,Dead,646.0,1
+SIM-BRCA-0173,Luminal B,Plate_C,53.1,female,Stage I,G3,Dead,1428.0,1
+SIM-BRCA-0174,HER2-enriched,Plate_B,53.1,female,Stage IIB,G3,Dead,1463.0,1
+SIM-BRCA-0175,Basal-like,Plate_A,58.8,female,Stage I,G3,Dead,825.0,1
+SIM-BRCA-0176,Luminal A,Plate_B,59.1,female,Stage IIB,G1,Alive,2230.0,0
+SIM-BRCA-0177,Luminal A,Plate_A,53.9,female,Stage IIA,G2,Alive,2273.0,0
+SIM-BRCA-0178,Basal-like,Plate_C,44.5,female,Stage IA,G3,Dead,170.0,1
+SIM-BRCA-0179,Basal-like,Plate_A,61.0,female,Stage IIA,G2,Dead,23.0,1
+SIM-BRCA-0180,Luminal B,Plate_C,65.7,female,Stage IIIA,G3,Dead,536.0,1
+SIM-BRCA-0181,HER2-enriched,Plate_A,54.5,female,Stage IIIA,G3,Dead,1425.0,1
+SIM-BRCA-0182,Basal-like,Plate_B,37.0,female,Stage IIIA,G3,Alive,1980.0,0
+SIM-BRCA-0183,Luminal A,Plate_C,54.0,female,Stage I,G3,Alive,2621.0,0
+SIM-BRCA-0184,Luminal B,Plate_A,63.5,female,Stage IIB,G2,Dead,525.0,1
+SIM-BRCA-0185,Basal-like,Plate_B,44.0,female,Stage IIA,G2,Dead,633.0,1
+SIM-BRCA-0186,Basal-like,Plate_A,42.8,female,Stage IIIC,G2,Dead,386.0,1
+SIM-BRCA-0187,Luminal B,Plate_B,53.5,female,Stage IIA,G3,Dead,456.0,1
+SIM-BRCA-0188,Luminal B,Plate_B,57.7,female,Stage IIA,G2,Dead,1134.0,1
+SIM-BRCA-0189,Basal-like,Plate_A,55.1,female,Stage IIA,G3,Dead,137.0,1
+SIM-BRCA-0190,Basal-like,Plate_A,45.4,female,Stage IA,G2,Dead,2835.0,1
+SIM-BRCA-0191,HER2-enriched,Plate_A,62.0,female,Stage IIB,G2,Dead,1719.0,1
+SIM-BRCA-0192,Luminal A,Plate_C,45.9,female,Stage IIIA,G2,Alive,2973.0,0
+SIM-BRCA-0193,Basal-like,Plate_C,75.9,female,Stage IIA,G3,Dead,472.0,1
+SIM-BRCA-0194,Luminal B,Plate_A,57.6,female,Stage I,G2,Dead,1677.0,1
+SIM-BRCA-0195,Luminal A,Plate_A,72.0,female,Stage IIIC,G1,Dead,160.0,1
+SIM-BRCA-0196,Basal-like,Plate_C,77.6,female,Stage IIIA,G3,Dead,202.0,1
+SIM-BRCA-0197,Basal-like,Plate_C,54.3,female,Stage IIB,G2,Dead,1700.0,1
+SIM-BRCA-0198,Luminal B,Plate_A,37.8,female,Stage IA,G3,Alive,2482.0,0
+SIM-BRCA-0199,Basal-like,Plate_A,62.3,female,Stage IIIA,G3,Dead,183.0,1
+SIM-BRCA-0200,Luminal A,Plate_A,60.4,female,Stage IIB,G2,Dead,1225.0,1
+SIM-BRCA-0201,Luminal A,Plate_A,62.2,female,Stage I,G2,Alive,2934.0,0
+SIM-BRCA-0202,Luminal A,Plate_C,67.0,female,Stage IIIC,G2,Alive,3098.0,0
+SIM-BRCA-0203,Luminal B,Plate_A,79.9,female,Stage IIB,G2,Alive,2032.0,0
+SIM-BRCA-0204,Basal-like,Plate_A,66.8,female,Stage IIIC,G2,Dead,1304.0,1
+SIM-BRCA-0205,HER2-enriched,Plate_A,65.6,female,Stage IA,G3,Alive,2417.0,0
+SIM-BRCA-0206,Basal-like,Plate_C,63.9,female,Stage IIB,G1,Dead,1958.0,1
+SIM-BRCA-0207,Luminal A,Plate_B,36.1,female,Stage IIB,G2,Dead,2551.0,1
+SIM-BRCA-0208,Luminal A,Plate_C,53.0,female,Stage IIIA,G1,Dead,704.0,1
+SIM-BRCA-0209,Luminal A,Plate_C,41.0,female,Stage IIA,G3,Dead,2217.0,1
+SIM-BRCA-0210,Basal-like,Plate_A,56.7,female,Stage IA,G3,Dead,1390.0,1
+SIM-BRCA-0211,Luminal A,Plate_C,65.8,female,Stage IIA,G3,Alive,2671.0,0
+SIM-BRCA-0212,Luminal B,Plate_B,47.7,female,Stage IA,G1,Alive,2325.0,0
+SIM-BRCA-0213,Basal-like,Plate_C,61.3,female,Stage IIB,G2,Dead,1889.0,1
+SIM-BRCA-0214,Basal-like,Plate_A,56.1,female,Stage IA,G3,Dead,1998.0,1
+SIM-BRCA-0215,Luminal A,Plate_A,56.7,female,Stage I,G1,Alive,2589.0,0
+SIM-BRCA-0216,Luminal A,Plate_A,84.9,female,Stage IIB,G1,Alive,2756.0,0
+SIM-BRCA-0217,Basal-like,Plate_C,45.9,female,Stage IIB,G3,Dead,608.0,1
+SIM-BRCA-0218,Luminal B,Plate_A,46.9,female,Stage IIB,G3,Alive,2926.0,0
+SIM-BRCA-0219,Luminal A,Plate_A,83.2,female,Stage IIA,G1,Dead,2283.0,1
+SIM-BRCA-0220,HER2-enriched,Plate_B,54.8,female,Stage IA,G3,Dead,1931.0,1
+SIM-BRCA-0221,Luminal B,Plate_A,60.1,female,Stage IA,G2,Alive,2420.0,0
+SIM-BRCA-0222,Luminal B,Plate_A,45.5,female,Stage IA,G2,Dead,1326.0,1
+SIM-BRCA-0223,Luminal A,Plate_A,35.7,female,Stage IIA,G2,Dead,2990.0,1
+SIM-BRCA-0224,Luminal A,Plate_B,68.8,female,Stage IIB,G3,Alive,2612.0,0
+SIM-BRCA-0225,Luminal A,Plate_A,57.8,female,Stage I,G1,Alive,2753.0,0
+SIM-BRCA-0226,Luminal A,Plate_A,56.7,female,Stage IIA,G2,Alive,1746.0,0
+SIM-BRCA-0227,Luminal B,Plate_A,76.1,female,Stage IA,G3,Dead,262.0,1
+SIM-BRCA-0228,Luminal B,Plate_A,64.2,female,Stage IIB,G2,Alive,1892.0,0
+SIM-BRCA-0229,HER2-enriched,Plate_B,57.2,female,Stage IIIA,G2,Dead,902.0,1
+SIM-BRCA-0230,HER2-enriched,Plate_B,50.3,female,Stage IIIA,G3,Alive,1568.0,0
+SIM-BRCA-0231,Luminal A,Plate_C,80.5,female,Stage IA,G2,Alive,2130.0,0
+SIM-BRCA-0232,Luminal A,Plate_B,65.8,female,Stage IIA,G1,Alive,1750.0,0
+SIM-BRCA-0233,Basal-like,Plate_B,52.3,female,Stage IIA,G3,Dead,122.0,1
+SIM-BRCA-0234,HER2-enriched,Plate_B,77.9,female,Stage IA,G3,Dead,1180.0,1
+SIM-BRCA-0235,HER2-enriched,Plate_A,72.4,female,Stage IIIC,G2,Alive,1980.0,0
+SIM-BRCA-0236,Luminal A,Plate_A,63.3,female,Stage IIA,G3,Alive,2201.0,0
+SIM-BRCA-0237,Luminal A,Plate_A,59.1,female,Stage IIA,G1,Alive,2243.0,0
+SIM-BRCA-0238,Luminal A,Plate_A,58.1,female,Stage IIB,G1,Alive,2384.0,0
+SIM-BRCA-0239,HER2-enriched,Plate_A,52.3,female,Stage IIA,G3,Dead,2402.0,1
+SIM-BRCA-0240,Luminal B,Plate_B,60.5,female,Stage IIA,G3,Alive,2751.0,0
+SIM-BRCA-0241,Luminal B,Plate_B,61.7,female,Stage IA,G3,Dead,1180.0,1
+SIM-BRCA-0242,Luminal B,Plate_A,70.1,female,Stage I,G3,Alive,1394.0,0
+SIM-BRCA-0243,Luminal A,Plate_A,53.4,female,Stage I,G1,Dead,2015.0,1
+SIM-BRCA-0244,Basal-like,Plate_C,62.0,female,Stage IIIA,G2,Dead,637.0,1
+SIM-BRCA-0245,Luminal A,Plate_A,52.4,female,Stage IIB,G1,Dead,109.0,1
+SIM-BRCA-0246,Basal-like,Plate_A,61.1,female,Stage IIIC,G3,Dead,969.0,1
+SIM-BRCA-0247,Basal-like,Plate_B,59.3,female,Stage IIB,G2,Dead,2081.0,1
+SIM-BRCA-0248,Basal-like,Plate_C,61.1,female,Stage IIA,G2,Dead,289.0,1
+SIM-BRCA-0249,Luminal A,Plate_C,65.2,female,Stage IA,G2,Dead,1967.0,1
+SIM-BRCA-0250,HER2-enriched,Plate_B,74.6,female,Stage IIIC,G2,Dead,389.0,1
+SIM-BRCA-0251,Basal-like,Plate_C,59.2,female,Stage IIIC,G3,Dead,2387.0,1
+SIM-BRCA-0252,Luminal A,Plate_B,64.2,female,Stage IIA,G1,Alive,1467.0,0
+SIM-BRCA-0253,Luminal A,Plate_B,43.3,female,Stage IIIA,G1,Alive,2953.0,0
+SIM-BRCA-0254,Basal-like,Plate_A,44.4,female,Stage I,G3,Dead,1193.0,1
+SIM-BRCA-0255,Luminal A,Plate_C,55.5,female,Stage IA,G2,Alive,1384.0,0
+SIM-BRCA-0256,Luminal A,Plate_A,76.5,female,Stage IIB,G2,Dead,836.0,1
+SIM-BRCA-0257,Luminal A,Plate_C,56.6,female,Stage IIA,G1,Alive,1847.0,0
+SIM-BRCA-0258,Luminal A,Plate_B,53.7,female,Stage IIA,G3,Dead,1021.0,1
+SIM-BRCA-0259,Luminal B,Plate_A,52.6,male,Stage IIIC,G1,Alive,2451.0,0
+SIM-BRCA-0260,Basal-like,Plate_A,57.3,female,Stage I,G3,Dead,780.0,1
+SIM-BRCA-0261,Luminal A,Plate_A,84.2,female,Stage IIIA,G1,Alive,2598.0,0
+SIM-BRCA-0262,Basal-like,Plate_B,54.2,female,Stage IIIA,G2,Dead,1442.0,1
+SIM-BRCA-0263,Luminal A,Plate_C,65.3,female,Stage I,G1,Alive,2529.0,0
+SIM-BRCA-0264,Luminal A,Plate_C,56.4,female,Stage I,G3,Dead,406.0,1
+SIM-BRCA-0265,Luminal A,Plate_A,57.8,female,Stage IIB,G3,Alive,3553.0,0
+SIM-BRCA-0266,Basal-like,Plate_B,68.9,female,Stage I,G2,Dead,677.0,1
+SIM-BRCA-0267,HER2-enriched,Plate_A,55.9,female,Stage IIB,G3,Dead,700.0,1
+SIM-BRCA-0268,Luminal B,Plate_B,57.5,female,Stage IIIA,G3,Alive,1692.0,0
+SIM-BRCA-0269,Luminal A,Plate_B,39.5,female,Stage IV,G1,Dead,1143.0,1
+SIM-BRCA-0270,Luminal A,Plate_A,50.3,female,Stage IIA,G2,Alive,2154.0,0
+SIM-BRCA-0271,Luminal A,Plate_B,72.4,female,Stage IIA,G3,Dead,979.0,1
+SIM-BRCA-0272,HER2-enriched,Plate_A,64.5,female,Stage IIIA,G3,Dead,174.0,1
+SIM-BRCA-0273,Luminal A,Plate_A,56.1,female,Stage IIA,G2,Dead,84.0,1
+SIM-BRCA-0274,HER2-enriched,Plate_A,38.1,female,Stage IIB,G3,Dead,575.0,1
+SIM-BRCA-0275,Luminal B,Plate_A,50.3,female,Stage IIIC,G1,Dead,593.0,1
+SIM-BRCA-0276,Luminal B,Plate_C,65.2,female,Stage IIIC,G1,Dead,619.0,1
+SIM-BRCA-0277,HER2-enriched,Plate_C,40.3,female,Stage IIB,G2,Dead,1223.0,1
+SIM-BRCA-0278,Luminal A,Plate_A,47.3,female,Stage IIA,G2,Dead,826.0,1
+SIM-BRCA-0279,Basal-like,Plate_A,69.2,female,Stage IIB,G3,Dead,471.0,1
+SIM-BRCA-0280,Luminal A,Plate_C,71.9,female,Stage IIA,G2,Alive,2423.0,0
+SIM-BRCA-0281,HER2-enriched,Plate_A,66.8,female,Stage I,G2,Dead,1908.0,1
+SIM-BRCA-0282,Luminal B,Plate_A,59.3,female,Stage IIA,G3,Dead,1464.0,1
+SIM-BRCA-0283,Luminal A,Plate_A,47.2,female,Stage IA,G1,Dead,292.0,1
+SIM-BRCA-0284,HER2-enriched,Plate_C,66.0,female,Stage IIIA,G3,Dead,2448.0,1
+SIM-BRCA-0285,Luminal A,Plate_C,59.1,female,Stage IIA,G1,Dead,769.0,1
+SIM-BRCA-0286,Luminal A,Plate_C,60.7,female,Stage IIA,G2,Dead,2023.0,1
+SIM-BRCA-0287,Basal-like,Plate_A,65.5,female,Stage IIA,G1,Dead,481.0,1
+SIM-BRCA-0288,Luminal B,Plate_A,77.4,female,Stage IA,G2,Dead,1601.0,1
+SIM-BRCA-0289,HER2-enriched,Plate_B,62.2,female,Stage IIA,G3,Dead,1562.0,1
+SIM-BRCA-0290,Basal-like,Plate_A,70.7,female,Stage IIA,G1,Dead,1764.0,1
+SIM-BRCA-0291,Basal-like,Plate_A,52.4,female,Stage IIA,G2,Dead,845.0,1
+SIM-BRCA-0292,Luminal A,Plate_B,90.0,female,Stage IIA,G1,Dead,2371.0,1
+SIM-BRCA-0293,Luminal A,Plate_A,52.2,male,Stage IA,G3,Dead,2793.0,1
+SIM-BRCA-0294,HER2-enriched,Plate_A,77.3,female,Stage IIIA,G2,Dead,580.0,1
+SIM-BRCA-0295,Luminal A,Plate_A,57.5,female,Stage IIA,G1,Dead,3494.0,1
+SIM-BRCA-0296,Luminal B,Plate_A,63.9,female,Stage IIIA,G3,Dead,2077.0,1
+SIM-BRCA-0297,Luminal A,Plate_B,62.6,female,Stage I,G1,Alive,2104.0,0
+SIM-BRCA-0298,Luminal A,Plate_A,43.1,female,Stage IIB,G1,Alive,3197.0,0
+SIM-BRCA-0299,Luminal B,Plate_C,54.2,female,Stage IV,G3,Dead,1710.0,1
+SIM-BRCA-0300,Basal-like,Plate_A,65.3,female,Stage IIIC,G2,Dead,719.0,1
+SIM-BRCA-0301,Basal-like,Plate_C,67.0,female,Stage IIB,G3,Dead,63.0,1
+SIM-BRCA-0302,HER2-enriched,Plate_A,52.9,female,Stage I,G2,Dead,296.0,1
+SIM-BRCA-0303,Luminal A,Plate_C,62.6,female,Stage IIIA,G3,Alive,1736.0,0
+SIM-BRCA-0304,Luminal B,Plate_C,55.9,female,Stage IIA,G2,Dead,1099.0,1
+SIM-BRCA-0305,Luminal A,Plate_A,54.1,female,Stage IIA,G1,Alive,2277.0,0
+SIM-BRCA-0306,Basal-like,Plate_C,66.2,female,Stage IIIA,G3,Dead,1053.0,1
+SIM-BRCA-0307,Luminal A,Plate_C,65.1,female,Stage IIA,G1,Dead,1579.0,1
+SIM-BRCA-0308,Luminal B,Plate_A,79.7,female,Stage I,G3,Dead,2268.0,1
+SIM-BRCA-0309,Luminal A,Plate_B,74.3,female,Stage IIB,G1,Alive,2688.0,0
+SIM-BRCA-0310,HER2-enriched,Plate_B,53.8,female,Stage IIIA,G2,Dead,1017.0,1
+SIM-BRCA-0311,HER2-enriched,Plate_B,72.8,female,Stage I,G3,Alive,2173.0,0
+SIM-BRCA-0312,HER2-enriched,Plate_C,44.0,female,Stage IIB,G3,Dead,1615.0,1
+SIM-BRCA-0313,Luminal A,Plate_B,28.2,female,Stage IA,G3,Dead,1857.0,1
+SIM-BRCA-0314,HER2-enriched,Plate_B,80.1,female,Stage IIIA,G2,Alive,2542.0,0
+SIM-BRCA-0315,Luminal A,Plate_B,49.7,female,Stage IIA,G2,Alive,2523.0,0
+SIM-BRCA-0316,Luminal A,Plate_B,55.7,female,Stage IIIA,G2,Alive,2636.0,0
+SIM-BRCA-0317,Luminal A,Plate_B,59.7,female,Stage IIIA,G1,Dead,1249.0,1
+SIM-BRCA-0318,Luminal A,Plate_B,67.8,female,Stage I,G1,Dead,1693.0,1
+SIM-BRCA-0319,Luminal B,Plate_A,42.2,female,Stage IIA,G2,Dead,1159.0,1
+SIM-BRCA-0320,Luminal A,Plate_B,62.4,female,Stage IIIC,G1,Dead,1045.0,1
+SIM-BRCA-0321,Luminal A,Plate_C,57.5,female,Stage IA,G1,Dead,854.0,1
+SIM-BRCA-0322,Basal-like,Plate_B,45.3,female,Stage I,G3,Dead,978.0,1
+SIM-BRCA-0323,HER2-enriched,Plate_B,52.3,female,Stage I,G2,Dead,1262.0,1
+SIM-BRCA-0324,Basal-like,Plate_A,66.9,female,Stage IIA,G2,Dead,2344.0,1
+SIM-BRCA-0325,Luminal B,Plate_A,57.5,female,Stage IIIA,G2,Dead,121.0,1
+SIM-BRCA-0326,Luminal A,Plate_A,89.8,female,Stage IIB,G2,Dead,1827.0,1
+SIM-BRCA-0327,HER2-enriched,Plate_A,59.4,female,Stage IIB,G2,Dead,1085.0,1
+SIM-BRCA-0328,Luminal A,Plate_A,73.6,female,Stage IA,G2,Alive,1896.0,0
+SIM-BRCA-0329,Luminal A,Plate_A,78.1,female,Stage IIB,G2,Alive,2478.0,0
+SIM-BRCA-0330,Luminal A,Plate_B,53.3,female,Stage IA,G1,Dead,1485.0,1
+SIM-BRCA-0331,Basal-like,Plate_A,67.6,female,Stage IIIA,G3,Dead,778.0,1
+SIM-BRCA-0332,Luminal A,Plate_A,61.7,female,Stage IIA,G1,Dead,1635.0,1
+SIM-BRCA-0333,Basal-like,Plate_B,62.4,female,Stage IA,G3,Dead,1805.0,1
+SIM-BRCA-0334,Luminal A,Plate_C,51.8,female,Stage IV,G1,Dead,1002.0,1
+SIM-BRCA-0335,Luminal B,Plate_A,54.7,female,Stage IIIA,G3,Dead,1623.0,1
+SIM-BRCA-0336,Luminal B,Plate_B,49.5,female,Stage IIA,G3,Dead,496.0,1
+SIM-BRCA-0337,Luminal A,Plate_A,61.4,female,Stage IA,G2,Dead,268.0,1
+SIM-BRCA-0338,Luminal B,Plate_A,63.9,female,Stage IIIC,G3,Dead,758.0,1
+SIM-BRCA-0339,Basal-like,Plate_C,45.6,female,Stage IIB,G3,Dead,682.0,1
+SIM-BRCA-0340,Luminal B,Plate_A,54.8,female,Stage IA,G1,Dead,1202.0,1
+SIM-BRCA-0341,Luminal A,Plate_A,54.4,female,Stage IIA,G1,Dead,3088.0,1
+SIM-BRCA-0342,Basal-like,Plate_B,42.1,female,Stage IIA,G3,Dead,1669.0,1
+SIM-BRCA-0343,Luminal A,Plate_A,62.9,female,Stage IIA,G1,Alive,3218.0,0
+SIM-BRCA-0344,Luminal A,Plate_A,49.5,female,Stage IIIA,G3,Dead,1873.0,1
+SIM-BRCA-0345,Luminal A,Plate_B,43.5,female,Stage I,G1,Dead,534.0,1
+SIM-BRCA-0346,Luminal B,Plate_B,51.0,female,Stage IA,G3,Dead,970.0,1
+SIM-BRCA-0347,Luminal A,Plate_C,39.7,female,Stage I,G2,Dead,850.0,1
+SIM-BRCA-0348,Basal-like,Plate_B,62.3,female,Stage I,G3,Alive,2103.0,0
+SIM-BRCA-0349,Luminal A,Plate_A,43.9,female,Stage IA,G1,Dead,3057.0,1
+SIM-BRCA-0350,Basal-like,Plate_A,57.4,female,Stage IA,G3,Dead,876.0,1
+SIM-BRCA-0351,Luminal A,Plate_A,56.4,female,Stage IIB,G1,Dead,3236.0,1
+SIM-BRCA-0352,Basal-like,Plate_A,58.3,female,Stage IIB,G3,Dead,559.0,1
+SIM-BRCA-0353,Basal-like,Plate_C,58.8,female,Stage IA,G3,Alive,2010.0,0
+SIM-BRCA-0354,Luminal A,Plate_A,63.1,female,Stage IA,G2,Dead,2092.0,1
+SIM-BRCA-0355,Luminal A,Plate_A,56.1,female,Stage IIA,G1,Dead,1785.0,1
+SIM-BRCA-0356,Luminal B,Plate_A,66.4,female,Stage IIIA,G2,Dead,1740.0,1
+SIM-BRCA-0357,HER2-enriched,Plate_B,47.9,female,Stage I,G2,Dead,118.0,1
+SIM-BRCA-0358,HER2-enriched,Plate_A,51.9,female,Stage IIB,G2,Alive,2287.0,0
+SIM-BRCA-0359,Luminal A,Plate_C,37.0,female,Stage IIA,G2,Alive,3105.0,0
+SIM-BRCA-0360,Basal-like,Plate_A,68.0,female,Stage IIIA,G2,Dead,1574.0,1
+SIM-BRCA-0361,Luminal A,Plate_B,61.3,female,Stage IIIC,G3,Dead,1239.0,1
+SIM-BRCA-0362,Luminal A,Plate_A,35.5,female,Stage IIIA,G1,Alive,2116.0,0
+SIM-BRCA-0363,Basal-like,Plate_B,64.8,female,Stage IIB,G2,Dead,1259.0,1
+SIM-BRCA-0364,Luminal B,Plate_B,50.2,female,Stage IIA,G2,Dead,1890.0,1
+SIM-BRCA-0365,Luminal B,Plate_A,41.6,female,Stage IA,G1,Dead,2965.0,1
+SIM-BRCA-0366,HER2-enriched,Plate_A,75.6,female,Stage IIB,G2,Dead,2830.0,1
+SIM-BRCA-0367,Luminal A,Plate_A,71.1,female,Stage IIIA,G2,Dead,1251.0,1
+SIM-BRCA-0368,Basal-like,Plate_B,61.0,female,Stage I,G3,Dead,926.0,1
+SIM-BRCA-0369,Luminal A,Plate_A,42.1,male,Stage I,G2,Alive,2083.0,0
+SIM-BRCA-0370,Luminal A,Plate_A,40.5,female,Stage IA,G3,Alive,2537.0,0
+SIM-BRCA-0371,Luminal A,Plate_B,80.9,female,Stage I,G1,Alive,3319.0,0
+SIM-BRCA-0372,HER2-enriched,Plate_C,64.9,female,Stage IIB,G3,Dead,394.0,1
+SIM-BRCA-0373,Luminal B,Plate_A,58.1,female,Stage IIA,G3,Alive,2984.0,0
+SIM-BRCA-0374,Luminal A,Plate_A,78.3,female,Stage IIA,G2,Alive,2054.0,0
+SIM-BRCA-0375,Basal-like,Plate_B,48.4,female,Stage IIIA,G2,Dead,545.0,1
+SIM-BRCA-0376,HER2-enriched,Plate_C,47.1,female,Stage IIIA,G2,Dead,155.0,1
+SIM-BRCA-0377,HER2-enriched,Plate_A,69.0,female,Stage IIA,G3,Alive,2837.0,0
+SIM-BRCA-0378,Luminal B,Plate_B,44.5,female,Stage IIA,G2,Dead,1604.0,1
+SIM-BRCA-0379,Luminal A,Plate_C,66.6,female,Stage IA,G1,Alive,1805.0,0
+SIM-BRCA-0380,Luminal B,Plate_C,66.8,female,Stage IIA,G3,Dead,1077.0,1
+SIM-BRCA-0381,HER2-enriched,Plate_B,54.1,female,Stage IIB,G3,Dead,1291.0,1
+SIM-BRCA-0382,HER2-enriched,Plate_A,72.3,female,Stage IIIA,G3,Dead,557.0,1
+SIM-BRCA-0383,HER2-enriched,Plate_A,79.9,female,Stage IIB,G3,Dead,2707.0,1
+SIM-BRCA-0384,Luminal B,Plate_C,74.4,female,Stage IIB,G3,Dead,844.0,1
+SIM-BRCA-0385,Luminal A,Plate_A,71.0,female,Stage IIA,G2,Alive,2198.0,0
+SIM-BRCA-0386,Luminal B,Plate_B,52.0,female,Stage IA,G3,Dead,436.0,1
+SIM-BRCA-0387,Luminal A,Plate_A,45.3,female,Stage I,G1,Alive,2913.0,0
+SIM-BRCA-0388,Luminal A,Plate_A,50.5,female,Stage IIB,G1,Dead,793.0,1
+SIM-BRCA-0389,Luminal B,Plate_B,59.9,female,Stage I,G3,Dead,1675.0,1
+SIM-BRCA-0390,Basal-like,Plate_C,65.4,female,Stage IIIC,G3,Dead,955.0,1
+SIM-BRCA-0391,HER2-enriched,Plate_A,46.6,female,Stage I,G3,Dead,2463.0,1
+SIM-BRCA-0392,Basal-like,Plate_A,60.1,female,Stage IIIA,G2,Dead,596.0,1
+SIM-BRCA-0393,HER2-enriched,Plate_A,26.0,female,Stage IIB,G2,Dead,730.0,1
+SIM-BRCA-0394,Basal-like,Plate_C,57.9,female,Stage IIB,G2,Dead,905.0,1
+SIM-BRCA-0395,Basal-like,Plate_C,62.1,female,Stage IA,G2,Dead,981.0,1
+SIM-BRCA-0396,Luminal A,Plate_A,74.5,female,Stage IIA,G3,Alive,3092.0,0
+SIM-BRCA-0397,Basal-like,Plate_B,42.5,female,Stage IIIC,G2,Dead,940.0,1
+SIM-BRCA-0398,Luminal A,Plate_C,55.3,female,Stage IA,G3,Dead,410.0,1
+SIM-BRCA-0399,Luminal A,Plate_A,36.7,female,Stage IA,G1,Dead,130.0,1
+SIM-BRCA-0400,Luminal A,Plate_B,72.0,female,Stage IIA,G1,Alive,2855.0,0
+SIM-BRCA-0401,HER2-enriched,Plate_A,26.0,female,Stage I,G2,Dead,713.0,1
+SIM-BRCA-0402,Basal-like,Plate_A,47.0,female,Stage IIIC,G3,Dead,1766.0,1
+SIM-BRCA-0403,HER2-enriched,Plate_B,67.6,female,Stage IIA,G3,Dead,1474.0,1
+SIM-BRCA-0404,HER2-enriched,Plate_A,48.0,female,Stage IIA,G3,Alive,2261.0,0
+SIM-BRCA-0405,HER2-enriched,Plate_B,58.4,female,Stage IIB,G3,Alive,2225.0,0
+SIM-BRCA-0406,Luminal A,Plate_C,42.6,female,Stage IIB,G1,Dead,79.0,1
+SIM-BRCA-0407,HER2-enriched,Plate_A,62.5,female,Stage IIIA,G3,Dead,484.0,1
+SIM-BRCA-0408,HER2-enriched,Plate_C,36.7,female,Stage IIA,G1,Dead,718.0,1
+SIM-BRCA-0409,HER2-enriched,Plate_A,51.4,female,Stage I,G3,Dead,1891.0,1
+SIM-BRCA-0410,Luminal A,Plate_A,71.5,female,Stage IIB,G2,Dead,181.0,1
+SIM-BRCA-0411,Luminal A,Plate_A,54.9,female,Stage IIA,G3,Alive,2414.0,0
+SIM-BRCA-0412,HER2-enriched,Plate_B,64.2,female,Stage IIIA,G3,Dead,1437.0,1
+SIM-BRCA-0413,Luminal A,Plate_B,59.6,female,Stage IIIC,G3,Dead,459.0,1
+SIM-BRCA-0414,Luminal A,Plate_B,52.8,female,Stage I,G1,Alive,2140.0,0
+SIM-BRCA-0415,Luminal B,Plate_B,63.8,female,Stage IIB,G2,Alive,2069.0,0
+SIM-BRCA-0416,Luminal A,Plate_A,50.7,female,Stage I,G1,Dead,2123.0,1
+SIM-BRCA-0417,Luminal A,Plate_A,69.0,female,Stage IA,G2,Alive,2235.0,0
+SIM-BRCA-0418,HER2-enriched,Plate_C,72.6,female,Stage IIB,G3,Dead,372.0,1
+SIM-BRCA-0419,HER2-enriched,Plate_A,75.1,female,Stage IIB,G1,Dead,1072.0,1
+SIM-BRCA-0420,HER2-enriched,Plate_A,62.7,female,Stage IA,G2,Alive,2347.0,0
+SIM-BRCA-0421,Luminal A,Plate_C,76.4,female,Stage I,G3,Alive,1903.0,0
+SIM-BRCA-0422,Luminal A,Plate_A,56.3,female,Stage IIB,G1,Alive,3007.0,0
+SIM-BRCA-0423,Luminal B,Plate_A,61.4,female,Stage IIA,G3,Dead,810.0,1
+SIM-BRCA-0424,Luminal B,Plate_A,55.1,female,Stage IIB,G2,Dead,1226.0,1
+SIM-BRCA-0425,Luminal A,Plate_A,53.6,female,Stage IIB,G2,Alive,2391.0,0
+SIM-BRCA-0426,Basal-like,Plate_A,49.5,female,Stage IIIC,G2,Alive,2423.0,0
+SIM-BRCA-0427,HER2-enriched,Plate_C,82.0,female,Stage IIB,G3,Dead,1541.0,1
+SIM-BRCA-0428,Luminal B,Plate_B,56.1,female,Stage IA,G2,Dead,718.0,1
+SIM-BRCA-0429,Luminal A,Plate_A,55.9,female,Stage IIA,G3,Dead,1946.0,1
+SIM-BRCA-0430,Luminal A,Plate_A,52.6,female,Stage I,G1,Alive,2431.0,0
+SIM-BRCA-0431,Luminal A,Plate_B,36.6,female,Stage IIIA,G1,Alive,2800.0,0
+SIM-BRCA-0432,Luminal A,Plate_A,50.1,female,Stage I,G2,Dead,2223.0,1
+SIM-BRCA-0433,Luminal B,Plate_A,60.0,female,Stage IIIA,G2,Dead,593.0,1
+SIM-BRCA-0434,Luminal B,Plate_B,28.2,female,Stage IIB,G3,Dead,1459.0,1
+SIM-BRCA-0435,Luminal B,Plate_B,57.0,female,Stage IIA,G3,Dead,1877.0,1
+SIM-BRCA-0436,HER2-enriched,Plate_A,35.1,female,Stage IIIA,G2,Dead,88.0,1
+SIM-BRCA-0437,Luminal A,Plate_B,57.5,female,Stage IIA,G1,Dead,137.0,1
+SIM-BRCA-0438,Luminal A,Plate_A,52.4,female,Stage IIB,G3,Dead,2566.0,1
+SIM-BRCA-0439,Luminal A,Plate_B,41.4,female,Stage IIA,G1,Alive,3447.0,0
+SIM-BRCA-0440,Luminal A,Plate_A,33.3,female,Stage IIIA,G2,Alive,3599.0,0
+SIM-BRCA-0441,Luminal B,Plate_B,48.2,female,Stage IIB,G3,Alive,3217.0,0
+SIM-BRCA-0442,HER2-enriched,Plate_A,70.7,female,Stage IIA,G1,Alive,2097.0,0
+SIM-BRCA-0443,HER2-enriched,Plate_A,57.2,female,Stage IIIA,G3,Dead,1340.0,1
+SIM-BRCA-0444,Basal-like,Plate_A,63.1,female,Stage IIA,G3,Dead,24.0,1
+SIM-BRCA-0445,Luminal B,Plate_A,52.0,female,Stage IIA,G3,Alive,1559.0,0
+SIM-BRCA-0446,Luminal A,Plate_A,47.0,female,Stage IIIA,G2,Dead,189.0,1
+SIM-BRCA-0447,Luminal B,Plate_A,86.0,female,Stage IIA,G2,Alive,2510.0,0
+SIM-BRCA-0448,Luminal A,Plate_B,66.0,female,Stage IIB,G2,Alive,2940.0,0
+SIM-BRCA-0449,HER2-enriched,Plate_A,57.2,female,Stage IA,G3,Alive,3192.0,0
+SIM-BRCA-0450,Luminal B,Plate_A,80.0,female,Stage IIIC,G1,Alive,2862.0,0
+SIM-BRCA-0451,Luminal A,Plate_A,45.4,female,Stage IIA,G2,Alive,2823.0,0
+SIM-BRCA-0452,Luminal A,Plate_A,63.6,female,Stage IIB,G1,Alive,3158.0,0
+SIM-BRCA-0453,Luminal A,Plate_C,60.5,female,Stage IIIC,G3,Dead,730.0,1
+SIM-BRCA-0454,HER2-enriched,Plate_A,87.6,female,Stage IIA,G3,Dead,2290.0,1
+SIM-BRCA-0455,Luminal A,Plate_C,71.8,female,Stage I,G2,Alive,2921.0,0
+SIM-BRCA-0456,Luminal A,Plate_A,64.5,female,Stage IIA,G1,Alive,2372.0,0
+SIM-BRCA-0457,Luminal A,Plate_C,52.7,female,Stage IA,G2,Alive,1976.0,0
+SIM-BRCA-0458,HER2-enriched,Plate_A,57.9,female,Stage IIA,G3,Dead,403.0,1
+SIM-BRCA-0459,Luminal B,Plate_B,76.1,female,Stage IIB,G2,Dead,380.0,1
+SIM-BRCA-0460,Basal-like,Plate_B,59.8,female,Stage IIB,G3,Dead,1427.0,1
+SIM-BRCA-0461,Luminal A,Plate_A,72.7,female,Stage IIB,G3,Alive,2634.0,0
+SIM-BRCA-0462,Luminal A,Plate_B,63.5,female,Stage IIB,G2,Alive,2751.0,0
+SIM-BRCA-0463,HER2-enriched,Plate_A,57.6,female,Stage IIIA,G3,Dead,109.0,1
+SIM-BRCA-0464,Luminal A,Plate_C,62.9,female,Stage IIA,G3,Alive,2654.0,0
+SIM-BRCA-0465,Luminal A,Plate_A,69.8,female,Stage IIIA,G1,Alive,2670.0,0
+SIM-BRCA-0466,Luminal B,Plate_A,67.0,female,Stage IA,G3,Dead,1603.0,1
+SIM-BRCA-0467,Luminal A,Plate_A,69.5,female,Stage IIIA,G2,Dead,1785.0,1
+SIM-BRCA-0468,Luminal A,Plate_A,50.5,female,Stage IA,G1,Dead,1954.0,1
+SIM-BRCA-0469,HER2-enriched,Plate_B,42.5,female,Stage IIA,G1,Dead,1275.0,1
+SIM-BRCA-0470,Luminal B,Plate_B,47.4,female,Stage IIB,G3,Alive,2101.0,0
+SIM-BRCA-0471,Luminal A,Plate_C,44.4,female,Stage IIA,G1,Alive,1753.0,0
+SIM-BRCA-0472,Luminal A,Plate_B,51.3,female,Stage IA,G1,Alive,2262.0,0
+SIM-BRCA-0473,Basal-like,Plate_B,61.3,female,Stage IIB,G2,Dead,1092.0,1
+SIM-BRCA-0474,Luminal A,Plate_B,37.3,female,Stage IIB,G1,Dead,840.0,1
+SIM-BRCA-0475,Luminal A,Plate_C,53.9,female,Stage IIA,G2,Alive,2121.0,0
+SIM-BRCA-0476,Basal-like,Plate_A,62.4,female,Stage I,G3,Alive,3133.0,0
+SIM-BRCA-0477,Basal-like,Plate_C,79.5,female,Stage IIA,G3,Dead,2346.0,1
+SIM-BRCA-0478,HER2-enriched,Plate_A,68.3,female,Stage IIB,G2,Dead,1079.0,1
+SIM-BRCA-0479,Luminal A,Plate_C,63.5,female,Stage IA,G1,Alive,3668.0,0
+SIM-BRCA-0480,Luminal A,Plate_B,42.7,female,Stage IIA,G3,Dead,558.0,1
+SIM-BRCA-0481,Luminal B,Plate_A,52.6,female,Stage IIIA,G3,Dead,2443.0,1
+SIM-BRCA-0482,Basal-like,Plate_C,68.6,female,Stage IIB,G2,Dead,1036.0,1
+SIM-BRCA-0483,Luminal A,Plate_A,48.9,female,Stage IIB,G2,Alive,2530.0,0
+SIM-BRCA-0484,Luminal B,Plate_A,52.9,female,Stage I,G3,Dead,873.0,1
+SIM-BRCA-0485,Luminal A,Plate_B,54.3,female,Stage IA,G3,Alive,2095.0,0
+SIM-BRCA-0486,HER2-enriched,Plate_C,52.6,female,Stage I,G2,Dead,402.0,1
+SIM-BRCA-0487,HER2-enriched,Plate_A,82.2,female,Stage I,G3,Dead,323.0,1
+SIM-BRCA-0488,Luminal B,Plate_A,43.8,female,Stage IA,G3,Alive,2931.0,0
+SIM-BRCA-0489,HER2-enriched,Plate_A,56.7,female,Stage IIIC,G2,Alive,2759.0,0
+SIM-BRCA-0490,HER2-enriched,Plate_A,67.7,female,Stage IIA,G3,Dead,777.0,1
+SIM-BRCA-0491,Luminal A,Plate_A,44.6,female,Stage IIA,G3,Alive,1984.0,0
+SIM-BRCA-0492,Luminal A,Plate_C,46.6,female,Stage IIB,G2,Dead,1769.0,1
+SIM-BRCA-0493,Basal-like,Plate_A,53.1,female,Stage IIIA,G2,Dead,283.0,1
+SIM-BRCA-0494,Luminal A,Plate_A,69.1,female,Stage I,G1,Dead,632.0,1
+SIM-BRCA-0495,Luminal A,Plate_A,51.3,female,Stage I,G3,Dead,2201.0,1
+SIM-BRCA-0496,Luminal A,Plate_A,49.9,female,Stage IIA,G2,Alive,3089.0,0
+SIM-BRCA-0497,HER2-enriched,Plate_A,60.5,female,Stage IIB,G3,Dead,1048.0,1
+SIM-BRCA-0498,Luminal B,Plate_B,67.2,female,Stage IIA,G2,Dead,1249.0,1
+SIM-BRCA-0499,Basal-like,Plate_A,54.5,female,Stage IIA,G2,Dead,1063.0,1

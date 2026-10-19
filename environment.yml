@@ -1,0 +1,41 @@
+name: tcga-subtype-discovery
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=2.*
+  - pandas=2.*
+  - scipy=1.*
+  - scikit-learn=1.*
+  - matplotlib=3.*
+  - seaborn=0.13.*
+  - plotly=6.*
+  - umap-learn=0.5.*
+  - hdbscan=0.8.*
+  - statsmodels=0.14.*
+  - pyyaml
+  - click
+  - rich
+  - requests
+  - jupyter
+  - notebook
+  - nbformat
+  - nbconvert
+  - ipykernel
+  - pytest
+  - pytest-cov
+  # Bioconductor / R companions for real GDC downloads (TCGAbiolinks route)
+  - bioconductor-tcgabiolinks
+  - r-base>=4.3
+  - pip
+  - pip:
+      - lifelines==0.30.0
+      - gseapy==1.1.9
+      - adjustText==1.3.0
+
+# --- Usage ---
+# Create:   conda env create -f environment.yml
+# Activate: conda activate tcga-subtype-discovery
+# Update:   conda env update -f environment.yml --prune

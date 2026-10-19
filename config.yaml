@@ -1,0 +1,138 @@
+# =============================================================================
+# tcga-cancer-subtype-discovery :: master configuration
+#
+# Every module in src/ reads its defaults from this file so that the same
+# pipeline can be re-run against a different cancer type, sample size, or
+# hyperparameter grid without touching code. Override any field on the CLI,
+# e.g.:
+#   python -m src.cli preprocess --config config.yaml --top-n-genes 3000
+# =============================================================================
+
+project:
+  name: "tcga-cancer-subtype-discovery"
+  cancer_type: "TCGA-BRCA"          # alternatives: TCGA-LUAD, TCGA-COAD, TCGA-GBM
+  random_seed: 42
+  n_jobs: -1
+
+# -----------------------------------------------------------------------------
+# Data acquisition (GDC API). See src/download.py
+# -----------------------------------------------------------------------------
+gdc:
+  base_url: "https://api.gdc.cancer.gov"
+  data_category: "Transcriptome Profiling"
+  data_type: "Gene Expression Quantification"
+  workflow_type: "STAR - Counts"
+  experimental_strategy: "RNA-Seq"
+  sample_type:
+    - "Primary Tumor"
+  max_cases: 60            # small, fast, real subset for a reproducible demo run
+                             # set to null to pull every available case
+  value_column: "tpm_unstranded"   # expression unit extracted from GDC STAR-Counts files
+  raw_dir: "data/raw"
+  metadata_dir: "data/metadata"
+
+# If GDC is unreachable or a full-scale run is not practical (multi-GB, 1000+
+# samples), the pipeline falls back to a biologically-motivated simulator that
+# reproduces TCGA-BRCA's known PAM50-like cluster structure. See src/simulate.py
+simulate:
+  enabled_fallback: true
+  n_samples: 500
+  n_genes: 4000
+  n_subtypes: 4
+  subtype_names: ["Basal-like", "Luminal A", "Luminal B", "HER2-enriched"]
+  noise_sd: 1.0
+  seed: 42
+
+# -----------------------------------------------------------------------------
+# Preprocessing (src/preprocess.py)
+# -----------------------------------------------------------------------------
+preprocessing:
+  min_counts_per_sample: 100000
+  min_samples_expressing: 0.2      # gene must be expressed (>0) in >=20% of samples
+  log_transform: "log2"            # log2(x + 1)
+  top_n_variable_genes: 2000
+  variance_method: "mad"           # "mad" (median absolute deviation) or "var"
+  scale: true                      # z-score genes after log transform
+  outlier_zscore_threshold: 3.5
+
+# -----------------------------------------------------------------------------
+# Dimensionality reduction
+# -----------------------------------------------------------------------------
+dimensionality_reduction:
+  pca:
+    n_components: 50
+  tsne:
+    perplexities: [10, 30, 50]
+    n_iter: 1000
+    learning_rate: "auto"
+  umap:
+    n_neighbors_grid: [5, 15, 30, 50]
+    min_dist_grid: [0.0, 0.1, 0.25, 0.5]
+    default_n_neighbors: 15
+    default_min_dist: 0.1
+
+# -----------------------------------------------------------------------------
+# Clustering
+# -----------------------------------------------------------------------------
+clustering:
+  kmeans:
+    k_range: [2, 10]
+  hierarchical:
+    linkages: ["ward", "complete", "average"]
+    n_clusters: 4
+  dbscan:
+    # Tuned empirically for a 2000-gene, z-scored (unit-variance-per-gene) space,
+    # where typical pairwise Euclidean distances are ~50-65 (see notebook 05 for
+    # the k-distance plot this was chosen from), not the eps~0.1-1 scale typical
+    # of pre-scaled 2-D toy examples.
+    eps: 54.0
+    min_samples: 5
+  hdbscan:
+    # Run on the 30-component PCA embedding (see src/clustering.py::compare_all_methods),
+    # where density-based methods are far less afflicted by the curse of dimensionality.
+    min_cluster_size: 5
+    min_samples: 3
+  spectral:
+    n_clusters: 4
+  chosen_method: "kmeans"
+  chosen_k: 4
+
+# -----------------------------------------------------------------------------
+# Differential expression / enrichment
+# -----------------------------------------------------------------------------
+differential_expression:
+  method: "welch_t_test"
+  fdr_method: "benjamini_hochberg"
+  fdr_threshold: 0.05
+  log2fc_threshold: 1.0
+
+enrichment:
+  gene_set_libraries:
+    - "GO_Biological_Process_2023"
+    - "KEGG_2021_Human"
+    - "Reactome_2022"
+  top_n_genes_per_cluster: 150
+  organism: "human"
+
+# -----------------------------------------------------------------------------
+# Survival analysis
+# -----------------------------------------------------------------------------
+survival:
+  time_col: "days_to_event"
+  event_col: "event_observed"
+  alpha: 0.05
+
+# -----------------------------------------------------------------------------
+# Paths
+# -----------------------------------------------------------------------------
+paths:
+  figures_dir: "figures"
+  results_dir: "results"
+  reports_dir: "reports"
+  processed_dir: "data/processed"
+  metadata_dir: "data/metadata"
+
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  log_file: "pipeline.log"

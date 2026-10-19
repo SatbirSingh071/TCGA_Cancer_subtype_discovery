@@ -1,0 +1,15 @@
+.git
+.github
+data/raw
+data/processed
+figures
+results
+reports
+logs
+notebooks/.ipynb_checkpoints
+__pycache__
+*.pyc
+.venv
+venv
+.pytest_cache
+*.egg-info

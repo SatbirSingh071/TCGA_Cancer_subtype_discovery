@@ -1,0 +1,5 @@
+cluster,n,age_at_index_mean,age_at_index_sd,gender_mode,gender_mode_pct,ajcc_pathologic_stage_mode,ajcc_pathologic_stage_mode_pct,tumor_grade_mode,tumor_grade_mode_pct,vital_status_mode,vital_status_mode_pct
+0,128,58.7984375,11.863939834874072,female,99.2,Stage IIA,28.1,G3,46.1,Dead,71.1
+1,182,57.89450549450549,11.449329760473232,female,98.4,Stage IIB,26.4,G3,54.9,Dead,83.0
+2,183,57.994535519125684,12.655797120079422,female,98.9,Stage IIA,31.7,G1,43.2,Alive,55.2
+3,7,61.52857142857143,7.121730661787738,female,100.0,Stage IIB,42.9,G3,42.9,Dead,85.7

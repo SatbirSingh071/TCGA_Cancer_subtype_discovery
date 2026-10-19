@@ -1,0 +1,21 @@
+{
+  "n_genes_raw": 4000,
+  "n_samples_raw": 500,
+  "pct_missing_raw": 0.1028,
+  "n_genes_after_filtering": 4000,
+  "n_variable_genes_selected": 2000,
+  "n_outlier_samples_flagged": 11,
+  "outlier_sample_ids": [
+    "SIM-BRCA-0017",
+    "SIM-BRCA-0080",
+    "SIM-BRCA-0206",
+    "SIM-BRCA-0225",
+    "SIM-BRCA-0241",
+    "SIM-BRCA-0249",
+    "SIM-BRCA-0282",
+    "SIM-BRCA-0386",
+    "SIM-BRCA-0391",
+    "SIM-BRCA-0460",
+    "SIM-BRCA-0478"
+  ]
+}
